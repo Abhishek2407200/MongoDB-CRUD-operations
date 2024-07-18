@@ -6,8 +6,8 @@ import java.util.Date;
 
 @Getter
 public class ErrorDetails {
-    private String message;
-    private Date date;
+    private final String message;
+    private final Date date;
     public ErrorDetails(String message) {
         this.message = message;
         this.date = new Date();
